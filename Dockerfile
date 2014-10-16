@@ -5,5 +5,4 @@ ADD . .
 WORKDIR /
 RUN cat .git/HEAD
 RUN ls -la .git
-RUN pwd
 RUN git rev-parse HEAD > head_rev
