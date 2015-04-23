@@ -4,4 +4,4 @@ ENV SECOND second
 RUN apt-get update
 RUN apt-get install -y git # UPDATED2
 ADD . .
-RUN echo foo2 > bar
+RUN echo foo3 > bar
