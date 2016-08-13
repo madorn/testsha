@@ -5,4 +5,4 @@ ARG somearg=foo
 RUN apt-get update
 RUN apt-get install -y git # UPDATED7
 ADD . .
-RUN echo foo103 > bar
+RUN echo foo104 > bar
