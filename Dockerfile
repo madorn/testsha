@@ -7,4 +7,4 @@ RUN apt-get install -y git
 ADD . .		
 LABEL foo=bar		
 LABEL this.is.cool="{\"some\": \"json\"}"		
-RUN echo foo121 > bar
+RUN echo foo122 > bar
