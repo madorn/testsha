@@ -8,3 +8,7 @@ ADD . .
 LABEL foo=bar		
 LABEL this.is.cool="{\"some\": \"json\"}"		
 RUN echo foo126 > bar
+
+FROM alpine:latest
+COPY --from=0 bar baz
+RUN echo baz
