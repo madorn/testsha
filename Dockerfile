@@ -11,4 +11,4 @@ RUN echo foo126 > bar
 
 FROM alpine:latest
 COPY --from=0 bar baz
-RUN echo baz
+RUN cat baz
