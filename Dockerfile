@@ -8,7 +8,7 @@ ADD . .
 RUN echo foo133 > testing
 
 FROM alpine:latest
-COPY --from=0 bar baz
+COPY --from=0 testing baz
 LABEL foo=bar		
 LABEL this.is.cool="{\"some\": \"json\"}"		
 RUN cat baz
